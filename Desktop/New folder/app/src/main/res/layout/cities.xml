@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cairo"
+        android:textSize="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="button1"
+        android:layout_marginBottom="16dp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giza"
+        android:textSize="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="button2"
+        android:layout_marginBottom="16dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aswan"
+        android:textSize="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="button3"
+        android:layout_marginBottom="16dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luxor"
+        android:textSize="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="button4"
+        android:layout_marginBottom="16dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alex"
+        android:textSize="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="button5"
+        android:layout_marginBottom="16dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Port-Said"
+        android:textSize="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="button6"
+        android:layout_marginBottom="16dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="El Fayoum"
+        android:textSize="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="button7"
+        android:layout_marginBottom="16dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sina"
+        android:textSize="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="button8"
+        android:layout_marginBottom="16dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 	Matruh"
+        android:textSize="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="button9"
+        android:layout_marginBottom="16dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qena"
+        android:textSize="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="button10"
+        android:layout_marginBottom="16dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Suez"
+        android:textSize="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="button11"
+        android:layout_marginBottom="16dp"
+        />
+
+
+</LinearLayout>
+</ScrollView>
