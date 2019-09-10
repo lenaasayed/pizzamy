@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/city"
+            android:icon="@drawable/ic_location_city_black_24dp"
+            android:title="@string/cities" />
+
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/iconsmarker"
+            android:title="@string/map"  />
+        <item
+            android:id="@+id/near"
+            android:icon="@drawable/ic_directions_walk_black_24dp"
+            android:title="@string/nearest_cities" />
+        <item
+            android:id="@+id/type"
+            android:icon="@drawable/ic_explore_black_24dp"
+            android:title="@string/type_of_tourism"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/feed"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/feedback" />
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/iconssettings"
+                android:title="@string/settings" />
+        </menu>
+    </item>
+
+</menu>
